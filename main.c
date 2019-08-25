@@ -1,3 +1,11 @@
+/*
+*Autor: Emiliano Sánchez Campa
+*Fecha: 24/08/2019
+*Grupo: #
+*Horario: Sabado 9 am - 11 am
+*Matrícula: 1941551
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
