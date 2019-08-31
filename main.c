@@ -1,3 +1,11 @@
+/*
+Autor: Emiliano Sanchez Campa
+Fecha: 31/08/2019
+Grupo: #
+Horario: sabados 9 am-11 am
+Matrícula: 1941551
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,30 +15,30 @@
 //ACT1
 
 int main(int argc, char *argv[]) {
-	int num1,num2;
-	printf("Introduzca el primer numero: \n"); 
+	int num1,num2;									//se declaran las variables a usar
+	printf("Introduzca el primer numero: \n"); 		//el usuario introduce el valor de las variables
 	scanf("%d",&num1);
 	printf("Introduzca el segundo numero: \n");
 	scanf("%d",&num2);
-	if (num1>num2)
-		printf("\nEl primer numero %d, es mayor al segundo numero %d",num1,num2);
+	if (num1>num2)									//se usa el condicional para determinar si num1 es mayor a num2
+		printf("\nEl primer numero %d, es mayor al segundo numero %d",num1,num2);		//se imprime si num1 es mayor a num2
 	if (num2>num1)
-		printf("\nEl segundo numero %d, es mayor al primer numero %d",num2,num1);
-		else if (num1==num2)
-			printf("\nLos dos numeros son iguales");
+		printf("\nEl segundo numero %d, es mayor al primer numero %d",num2,num1);		//en caso de que no se evalua num2>num1
+		else if (num1==num2)														//se evalua si los dos son iguales
+			printf("\nLos dos numeros son iguales");								//se imprime el resultado
 	
-//**
+//***
 //ACT2
 
-	int A=5,B=3,C=-12;
-	if (A>3)
-		printf("\n\nA>3 es verdadero");
+	int A=5,B=3,C=-12;				//se introducen las variables
+	if (A>3)						//se determina si la condicion es verdadera
+		printf("\n\nA>3 es verdadero");			//si lo es, se imprime el resultado "verdadera"
 	else 
-		printf("\n\nA>3 es falso");
+		printf("\n\nA>3 es falso");				//si no lo es, se imprime el resultado "falso"
 	if (A>C)
 		printf("\nA>C es verdadero"); 
 	else
-		printf("\nA>C es falso");
+		printf("\nA>C es falso");				//se repite el mismo proceso con diferentes sentencias
 	if (B!=C)
 		printf("\nB es diferente de C, es verdadero");
 	else 
@@ -55,15 +63,15 @@ int main(int argc, char *argv[]) {
 		printf("\nA+B+C=5, es verdadero");
 	else
 		printf("\nA+B+C=5, es falso");
-	if (((A+B)==8)&&(A-B==2))
+	if (((A+B)==8)&&(A-B==2))						//las dos condicones tienen que ser verdaderas para que el resultado sea "verdadero"
 		printf("\nA+B=8 y A-B=2, es verdadero");
 	else
 		printf("\nA+B=8 y A-B=2, es falso");
-	if ((A+B)==8||(A-B==6))
+	if ((A+B)==8||(A-B==6))							//si solo una condicion es verdadera, el resultado es "verdadero"
 		printf("\nA+B=8 o A-B=6, es verdadero");
 	else
 		printf("\nA+B=8 o A-B=6, es falso");
-	if ((A>3)&&(B>3)&&(C>3))
+	if ((A>3)&&(B>3)&&(C>3))						//las tres condiciones tienen que ser verdaderas
 		printf("\nA>3 y B>3 y C>3, es verdadero");
 	else
 		printf("\nA>3 y B>3 y C>3, es falso");
@@ -71,22 +79,22 @@ int main(int argc, char *argv[]) {
 //***
 //ACTEXTRA
 	
-	int valorA,valorB,valorC;
-	printf("\n\nIntroduce el valor A: ");
+	int valorA,valorB,valorC;				//se determinan las variables a usar
+	printf("\n\nIntroduce el valor A: ");	//Se pide el valor al usuario con scanf
 	scanf("%d",&valorA);
 	printf("\nIntroduce el valor B: ");
 	scanf("%d",&valorB);
 	printf("\nIntroduce el valor C: ");
 	scanf("%d",&valorC);
 		
-	if (valorA>3)
-		printf("\nA>3 es verdadero");
+	if (valorA>3)							//se usa la variable para determinar la condicion
+		printf("\nA>3 es verdadero");		//si es verdadero se imprime el resultado "verdadero"
 	else
-		printf("\nA>3 es falso");
+		printf("\nA>3 es falso");			//en caso de que no, se imprime "falso" a traves del else
 	if (valorA>valorC)
 		printf("\nA>C es verdadero"); 
 	else
-		printf("\nA>C es falso");
+		printf("\nA>C es falso");			//se repite el proceso con diferentes condciones
 	if (valorB!=valorC)
 		printf("\nB es diferente de C, es verdadero");
 	else 
@@ -124,5 +132,5 @@ int main(int argc, char *argv[]) {
 	else
 		printf("\nA>3 y B>3 y C>3, es falso");
 	
-	return 0;
-}
+	return 0;			//return
+}//fin del main
