@@ -4,7 +4,7 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 //***
-//Actividad 1
+//ACT1
 
 int main(int argc, char *argv[]) {
 	int num1,num2;
@@ -20,17 +20,17 @@ int main(int argc, char *argv[]) {
 			printf("\nLos dos numeros son iguales");
 	
 //**
-//Actividad 2
+//ACT2
 
 	int A=5,B=3,C=-12;
 	if (A>3)
-		printf("\nA>3 es verdadero");
+		printf("\n\nA>3 es verdadero");
 	else 
-		printf("\nA>3 es falso");
+		printf("\n\nA>3 es falso");
 	if (A>C)
 		printf("\nA>C es verdadero"); 
 	else
-		printf("\nA>C es verdadero");
+		printf("\nA>C es falso");
 	if (B!=C)
 		printf("\nB es diferente de C, es verdadero");
 	else 
@@ -39,6 +39,90 @@ int main(int argc, char *argv[]) {
 		printf("\nA=3, es verdadero");
 	else
 		printf("\nA=3, es falso");
+	if (A*B==15)
+		printf("\nAxB=15, es verdadero");
+	else	
+		printf("\nAxB=15, es falso");
+	if ((C/B)<A)
+		printf("\nC/B<A, es verdadero");
+	else
+		printf("\nC/B<A, es falso");
+	if ((C/B)==-10)
+		printf("\nC/B=-10, es verdadero");
+	else
+		printf("\nC/B=-10, es falso");
+	if (A+B+C==5)
+		printf("\nA+B+C=5, es verdadero");
+	else
+		printf("\nA+B+C=5, es falso");
+	if (((A+B)==8)&&(A-B==2))
+		printf("\nA+B=8 y A-B=2, es verdadero");
+	else
+		printf("\nA+B=8 y A-B=2, es falso");
+	if ((A+B)==8||(A-B==6))
+		printf("\nA+B=8 o A-B=6, es verdadero");
+	else
+		printf("\nA+B=8 o A-B=6, es falso");
+	if ((A>3)&&(B>3)&&(C>3))
+		printf("\nA>3 y B>3 y C>3, es verdadero");
+	else
+		printf("\nA>3 y B>3 y C>3, es falso");
+	
+//***
+//ACTEXTRA
+	
+	int valorA,valorB,valorC;
+	printf("\n\nIntroduce el valor A: ");
+	scanf("%d",&valorA);
+	printf("\nIntroduce el valor B: ");
+	scanf("%d",&valorB);
+	printf("\nIntroduce el valor C: ");
+	scanf("%d",&valorC);
 		
+	if (valorA>3)
+		printf("\nA>3 es verdadero");
+	else
+		printf("\nA>3 es falso");
+	if (valorA>valorC)
+		printf("\nA>C es verdadero"); 
+	else
+		printf("\nA>C es falso");
+	if (valorB!=valorC)
+		printf("\nB es diferente de C, es verdadero");
+	else 
+		printf("\nB es diferente de C, es falso");
+	if (valorA==3)
+		printf("\nA=3, es verdadero");
+	else
+		printf("\nA=3, es falso");
+	if (valorA*valorB==15)
+		printf("\nAxB=15, es verdadero");
+	else	
+		printf("\nAxB=15, es falso");
+	if ((valorC/valorB)<valorA)
+		printf("\nC/B<A, es verdadero");
+	else
+		printf("\nC/B<A, es falso");
+	if ((valorC/valorB)==-10)
+		printf("\nC/B=-10, es verdadero");
+	else
+		printf("\nC/B=-10, es falso");
+	if (valorA+valorB+valorC==5)
+		printf("\nA+B+C=5, es verdadero");
+	else
+		printf("\nA+B+C=5, es falso");
+	if (((valorA+valorB)==8)&&(valorA-valorB==2))
+		printf("\nA+B=8 y A-B=2, es verdadero");
+	else
+		printf("\nA+B=8 y A-B=2, es falso");
+	if ((valorA+valorB)==8||(valorA-valorB==6))
+		printf("\nA+B=8 o A-B=6, es verdadero");
+	else
+		printf("\nA+B=8 o A-B=6, es falso");
+	if ((valorA>3)&&(valorB>3)&&(valorC>3))
+		printf("\nA>3 y B>3 y C>3, es verdadero");
+	else
+		printf("\nA>3 y B>3 y C>3, es falso");
+	
 	return 0;
 }
