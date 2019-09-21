@@ -12,7 +12,8 @@ Matrícula: 1941551
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	
+
+//**************ACTIVIDAD1*****************	
 	int i,n;											//Declaracion de variables enteras
 	float suma=0,prom;									//declaracion de variables float, estas se usarán para sacar el promedio con valores decimales
 	
@@ -30,6 +31,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	
+//**************ACTIVIDAD2*****************	
 	int base,pot,x;										//variables tipo int, la base a utilizar, la potencia y la x que se utiliza para elevar la base a la potencia
 	
 	fflush(stdin);										//se limpia el buffer con un fflush
